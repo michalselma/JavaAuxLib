@@ -1,0 +1,45 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "java.configuration.runtimes": [
+        {
+          "name": "JavaSE-1.8",
+          "path": "c:/jdk1.8.0_321",
+        },
+        {
+          "name": "JavaSE-11",
+          "path": "c:/jdk-11.0.14",
+        },
+        {
+          "name": "JavaSE-17",
+          "path": "c:/jdk-17.0.3.1",
+          "default": true
+        },
+        {
+            "name": "JavaSE-18",
+            "path": "c:/jdk-18.0.1.1",
+        },
+    ],
+    "workbench.colorCustomizations": {
+	    //"editor.background": "#252526",
+        //"sideBar.background": "#333333",
+        //"sideBarSectionHeader.border": "#252526"
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#6A9955",
+        "functions": "#b7b772", //DCDCAA
+        "variables": "#1BA8CD", //9CDCFE
+        "types": "#48b9a3", //4EC9B0
+        "keywords": "#C586C0",
+        "strings": "#c2856c" //CE9178
+    },
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    //"editor.fontFamily": "Hack",
+    //"editor.fontFamily": "'Source Code Pro'",
+    //"editor.fontSize": 14,
+    //"editor.fontLigatures": true
+}
